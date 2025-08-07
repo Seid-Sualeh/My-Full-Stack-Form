@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="css/style.css">
+  <title>All-in-One Data Entry</title>
+</head>
+<body>
+  <h2> Data Entry Form</h2>
+ 
+
+  
+    <form id="allForm" method="POST" action="http://localhost:5555/addiphone">
+    <h3>Product</h3>
+    <!-- <label for="Product">Product</label> -->
+    <input name="product_url" placeholder="Product URL" required><br>
+    <input name="product_name" placeholder="Product Name" required><br>
+    <h3>Product Description</h3>
+    <!-- <label for="Product Description">Product Description</label> -->
+    <input name="product_brief_description" placeholder="Brief Description" required><br>
+    <input name="product_description" placeholder="Description" required><br>
+   
+    <input name="product_img" placeholder="Image URL" required><br>
+    <input name="product_link" placeholder="Product Link" required><br>
+    <h3>Product Price</h3>
+    <!-- <label for="Product Price">Product Price</label> -->
+    <input name="starting_price" placeholder="Starting Price" required><br>
+    <input name="price_range" placeholder="Price Range" required><br>
+    <h3>User</h3>
+    <!-- <label for="User">User</label> -->
+    <input name="user_name" placeholder="User Name" required><br>
+    <input name="user_email" placeholder="User Email" required><br>
+   
+    <input name="user_password" placeholder="User Password" type="password" required><br>
+
+     <!-- <h3>Product Order</h3>  -->
+    
+    <button type="submit">Submit</button>
+  </form>
+  <div id="result"></div>
+  <script src="js/script.js"></script>
+
+
+  
+
+   
+</body>
+</html>
