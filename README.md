@@ -16,7 +16,7 @@ This is a full-stack web application that allows users to submit data through a 
 
 | Layer       | Technology        |
 |-------------|-------------------|
-| Frontend    | HTML, CSS (Bootstrap if used), JavaScript |
+| Frontend    | HTML, CSS, JavaScript |
 | Backend     | Node.js, Express.js |
 | Database    | MySQL |
 | Others      | body-parser, dotenv (for environment variables), nodemon (dev only) |
